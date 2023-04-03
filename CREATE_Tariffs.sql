@@ -1,7 +1,7 @@
-CREATE TABLE Tariff
+CREATE TABLE Tariffs
 (
     ID INTEGER
-    , ID_service_name INTEGER
+    , ID_ServiceNames INTEGER
     , "Title" TEXT 
     , "Cost" MONEY
 );
