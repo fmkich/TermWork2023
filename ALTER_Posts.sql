@@ -1,0 +1,6 @@
+ALTER TABLE "Posts" 
+ADD CONSTRAINT pk_Posts
+PRIMARY KEY ("id");
+
+ALTER TABLE "Posts"
+ADD CONSTRAINT u_post_name UNIQUE ("PostName");
